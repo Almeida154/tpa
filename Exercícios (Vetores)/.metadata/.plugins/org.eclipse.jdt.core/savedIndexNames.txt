@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+F:\1° A\3° Bimestre\Técnicas de Programção e Algoritmos (TPA)\Exercícios (Vetores)\.metadata\.plugins\org.eclipse.jdt.core
+3483642282.index
