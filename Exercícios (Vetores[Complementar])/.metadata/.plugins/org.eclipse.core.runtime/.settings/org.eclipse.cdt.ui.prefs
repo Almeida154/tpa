@@ -1,0 +1,11 @@
+content_assist_parameters_background=31,31,39
+content_assist_parameters_foreground=207,191,173
+content_assist_proposals_background=31,31,39
+content_assist_proposals_foreground=207,191,173
+eclipse.preferences.version=1
+inactiveCodeColor=97,97,97
+sourceHoverBackgroundColor=255,255,255
+sourceHoverBackgroundColor.SystemDefault=false
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,35 @@
+
+public class E10 {
+	public static void main(String[]args) {
+		//dif=7, 9, 5, 6, 17, 20, 24
+		int a[]=new int[] {4, 7, 9, 5, 24, 6, 8, 17, 19, 20};
+		int b[]=new int[] {4, 15, 10, 12, 13, 8, 59, 19, 14, 21};
+		int c[]=new int[10];
+		int i, j, diferenca;
+		for(i=0; i<10; i++) {
+			diferenca=0;
+			for(j=0; j<10; j++) {
+				if(a[i]!=b[j]) {
+					diferenca++;
+				}
+				if(diferenca==10) {
+					c[i]=a[i];
+				}
+			}
+		}
+		for(i=0; i<10; i++) {
+			diferenca=0;
+			for(j=0; j<10; j++) {
+				if(b[i]!=a[j]) {
+					diferenca++;
+				}
+				if(diferenca==10) {
+					c[i]=a[i];
+				}
+			}
+		}
+		for(i=0; i<10; i++) {
+			System.out.println(c[i]+" ");
+		}
+	}
+}
