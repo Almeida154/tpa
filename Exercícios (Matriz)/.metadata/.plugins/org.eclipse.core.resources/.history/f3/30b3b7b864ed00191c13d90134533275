@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class D {
+	public static void main(String[]args) {
+		Scanner ler=new Scanner(System.in);
+		int m[][]=new int[4][4];
+		int val[]=new int[16];
+		int i=0, j, cont=0, k=0, x, win=0, a=0;
+		
+		while(win==0) {
+			k=0;
+			a=0;
+			i=0;
+			while(k==0) {
+				for(a=0; a<16; a++) {
+					val[a]=(int)((Math.random()*74)+1);
+					System.out.print(val[a]+" ");
+					for(; i<16; i++) {
+						if(val[a]==val[i]) {
+							k+=1;
+						}
+					}
+				}
+				if(k==0) {
+					win+=1;
+				}
+			}
+		}
+		
+		
+		if(win>0) {
+			System.out.println("Repetiu");
+		}
+		else {
+			System.out.println("Não repetiu");
+		}
+		
+		
+		
+		
+		
+	}
+}
