@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class E2 {
+	public static void main(String[]args) {
+		Scanner ler=new Scanner(System.in);
+		int i=0, j=0, n, m;
+		System.out.println("Digite o tanto de linhas:");
+		m=ler.nextInt();
+		System.out.println("Digite o tanto de colunas:");
+		n=ler.nextInt();
+		int v[][]=new int[m][n];
+		for(i=0; i<m; i++) {
+			for(j=0; j<n; j++) {
+				v[i][j]=(int)(Math.random()*10);
+			}
+		}
+		for(i=0; i<m; i++) {
+			for(j=0; j<n; j++) {
+				System.out.print("[ "+v[i][j]+" ]");
+				if(j==n) {
+					System.out.print("\n");
+				}
+			}
+		}
+	}
+}

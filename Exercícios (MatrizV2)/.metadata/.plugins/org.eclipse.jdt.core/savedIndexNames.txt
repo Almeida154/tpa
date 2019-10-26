@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+F:\1° A\4° Bimestre\Técnicas de Programção e Algoritmos (TPA)\Exercícios (MatrizV2)\.metadata\.plugins\org.eclipse.jdt.core
+2439081366.index
+991032550.index
